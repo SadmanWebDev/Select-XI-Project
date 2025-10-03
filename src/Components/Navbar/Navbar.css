@@ -1,0 +1,21 @@
+.banner {
+  background-image: url("../../assets/bg-shadow.png");
+  background-color: black;
+  background-size: cover;
+  background-position: center; /* center image */
+  background-repeat: no-repeat;
+  height: 400px; /* set banner height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 20px;
+}
+
+.button {
+  background-color: #e7fe29;
+  padding: 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: black;
+}
