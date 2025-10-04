@@ -2,7 +2,13 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faFlag } from "@fortawesome/free-solid-svg-icons";
 
-const PlayerCard = ({ player, setAvailableBalance, availableBalance }) => {
+const PlayerCard = ({
+  player,
+  setAvailableBalance,
+  availableBalance,
+  setSelectedPlayers,
+  selectedPlayers,
+}) => {
   const [isSelected, setIsSelected] = useState(false);
   return (
     <div className="card bg-base-100 shadow-md">
@@ -46,6 +52,7 @@ const PlayerCard = ({ player, setAvailableBalance, availableBalance }) => {
               }
               setIsSelected(true);
               setAvailableBalance(availableBalance - player.price);
+              setSelectedPlayers([...selectedPlayers, player]);
             }}
             className="btn "
           >

@@ -2,6 +2,8 @@ import React, { use } from "react";
 import PlayerCard from "../PlayerCard/PlayerCard";
 
 const AvailablePlayer = ({
+  setSelectedPlayers,
+  selectedPlayers,
   playerPromise,
   setAvailableBalance,
   availableBalance,
@@ -12,6 +14,8 @@ const AvailablePlayer = ({
       {players.map((player) => (
         <PlayerCard
           key={player.id}
+          selectedPlayers={selectedPlayers}
+          setSelectedPlayers={setSelectedPlayers}
           availableBalance={availableBalance}
           setAvailableBalance={setAvailableBalance}
           player={player}

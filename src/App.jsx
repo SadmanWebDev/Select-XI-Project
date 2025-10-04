@@ -8,13 +8,24 @@ const playerPromise = fetch("/players.json").then((res) => res.json());
 
 function App() {
   const [toggle, setToggle] = useState(true);
-  const [availableBalance, setAvailableBalance] = useState(10000000);
+  const [availableBalance, setAvailableBalance] = useState(1000000000);
+  const [selectedPlayers, setSelectedPlayers] = useState([]);
+  const removePlayer = (p) => {
+    const filteredData = selectedPlayers.filter((plyr) => plyr.id !== p.id);
+    console.log(filteredData);
+    setSelectedPlayers(filteredData);
+    setAvailableBalance(availableBalance + p.price);
+  };
 
   return (
     <>
       <Navbar availableBalance={availableBalance}></Navbar>
       <div className="max-w-[1260px] mx-auto flex justify-between items-center font-bold mb-11">
-        <h1 className="text-2xl">Available Players</h1>
+        <h1 className="text-2xl">
+          {toggle === true
+            ? "Available Players"
+            : `Selected Player (${selectedPlayers.length}/6)`}
+        </h1>
         <div>
           <button
             onClick={() => setToggle(true)}
@@ -30,7 +41,7 @@ function App() {
               toggle === false ? "bg-[#E7FE29]" : ""
             }`}
           >
-            Selected<span>(0)</span>
+            Selected ({selectedPlayers.length})
           </button>
         </div>
       </div>
@@ -41,13 +52,18 @@ function App() {
           }
         >
           <AvailablePlayer
+            setSelectedPlayers={setSelectedPlayers}
+            selectedPlayers={selectedPlayers}
             availableBalance={availableBalance}
             setAvailableBalance={setAvailableBalance}
             playerPromise={playerPromise}
           ></AvailablePlayer>
         </Suspense>
       ) : (
-        <SelectedPlayer></SelectedPlayer>
+        <SelectedPlayer
+          removePlayer={removePlayer}
+          selectedPlayers={selectedPlayers}
+        ></SelectedPlayer>
       )}
     </>
   );
