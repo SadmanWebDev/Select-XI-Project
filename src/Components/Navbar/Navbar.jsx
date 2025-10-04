@@ -3,7 +3,7 @@ import logoImg from "../../assets/logo.png";
 import bannerMain from "../../assets/banner-main.png";
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({ availableBalance }) => {
   return (
     <div className="max-w-[1260px] mx-auto mb-16">
       <div className="navbar">
@@ -11,8 +11,8 @@ const Navbar = () => {
           <img className="w-16" src={logoImg} alt="" />
         </div>
         <div className="flex gap-2">
-          <span>6000000000</span>
-          <span>Coin 🪙</span>
+          <span className="font-semibold">{availableBalance}</span>
+          <span>🪙</span>
         </div>
       </div>
       <div className="banner flex flex-col gap-5 mt-3">

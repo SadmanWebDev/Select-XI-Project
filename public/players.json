@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "player_image": "https://i.ibb.co.com/k2h0mzHn/licensed-image.webp",
     "player_name": "Shakib Al Hasan",
     "player_country": "Bangladesh",
@@ -10,16 +11,18 @@
     "price": 6000000
   },
   {
+    "id": 2,
     "player_image": "https://i.ibb.co.com/YF5xbyDJ/image-51989-1648055966.jpg",
     "player_name": "Tamim Iqbal",
     "player_country": "Bangladesh",
     "player_role": "Batsman",
     "player_rating": 8.7,
     "batting_position": "Left-handed",
-    "bowling_position": "—",
+    "bowling_position": "N/A",
     "price": 6000000
   },
   {
+    "id": 3,
     "player_image": "https://i.ibb.co.com/G3971XtD/images.webp",
     "player_name": "Mustafizur Rahman",
     "player_country": "Bangladesh",
@@ -30,16 +33,18 @@
     "price": 6000000
   },
   {
+    "id": 4,
     "player_image": "https://i.ibb.co.com/G354TRZf/images-1.webp",
     "player_name": "Mushfiqur Rahim",
     "player_country": "Bangladesh",
     "player_role": "Wicketkeeper-Batsman",
     "player_rating": 8.8,
     "batting_position": "Right-handed",
-    "bowling_position": "—",
+    "bowling_position": "N/A",
     "price": 6000000
   },
   {
+    "id": 5,
     "player_image": "https://i.ibb.co.com/whf3zBjR/images-2.webp",
     "player_name": "Andre Russell",
     "player_country": "West Indies",
@@ -50,6 +55,7 @@
     "price": 50000
   },
   {
+    "id": 6,
     "player_image": "https://i.ibb.co.com/jZ3grwtn/download-1.jpg",
     "player_name": "Sunil Narine",
     "player_country": "West Indies",
@@ -60,6 +66,7 @@
     "price": 40000
   },
   {
+    "id": 7,
     "player_image": "https://i.ibb.co.com/931x7FLF/licensed-image-1.webp",
     "player_name": "Afif Hossain",
     "player_country": "Bangladesh",
@@ -70,6 +77,7 @@
     "price": 4000000
   },
   {
+    "id": 8,
     "player_image": "https://i.ibb.co.com/QjbnF7gp/download-2.jpg",
     "player_name": "Nasum Ahmed",
     "player_country": "Bangladesh",
@@ -80,6 +88,7 @@
     "price": 2500000
   },
   {
+    "id": 9,
     "player_image": "https://i.ibb.co.com/N6Hsmt6F/download-3.jpg",
     "player_name": "Shoriful Islam",
     "player_country": "Bangladesh",
@@ -90,6 +99,7 @@
     "price": 6000000
   },
   {
+    "id": 10,
     "player_image": "https://i.ibb.co.com/WW9Ln2q0/download-4.jpg",
     "player_name": "Mahedi Hasan",
     "player_country": "Bangladesh",
@@ -100,6 +110,7 @@
     "price": 4000000
   },
   {
+    "id": 11,
     "player_image": "https://i.ibb.co.com/27wKn9f7/gettyimages-2171956944-2048x2048-1.jpg",
     "player_name": "Rahkeem Cornwall",
     "player_country": "West Indies",
@@ -110,13 +121,14 @@
     "price": 30000
   },
   {
+    "id": 12,
     "player_image": "https://i.ibb.co.com/3Y0thdpd/images-3.webp",
     "player_name": "Liton Das",
     "player_country": "Bangladesh",
     "player_role": "Wicketkeeper-Batsman",
     "player_rating": 8.6,
     "batting_position": "Right-handed",
-    "bowling_position": "—",
+    "bowling_position": "N/A",
     "price": 6000000
   }
 ]
