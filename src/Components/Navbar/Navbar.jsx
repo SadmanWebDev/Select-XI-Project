@@ -5,7 +5,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="max-w-[1260px] mx-auto">
+    <div className="max-w-[1260px] mx-auto mb-16">
       <div className="navbar">
         <div className="flex-1">
           <img className="w-16" src={logoImg} alt="" />
@@ -15,7 +15,7 @@ const Navbar = () => {
           <span>Coin 🪙</span>
         </div>
       </div>
-      <div className="banner flex flex-col gap-5">
+      <div className="banner flex flex-col gap-5 mt-3">
         <img src={bannerMain} alt="" />
         <h1 className="font-bold text-2xl">
           Assemble Your Ultimate Dream 11 Cricket Team
