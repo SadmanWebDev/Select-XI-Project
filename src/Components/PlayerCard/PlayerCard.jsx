@@ -14,7 +14,11 @@ const PlayerCard = ({
   return (
     <div className="card bg-base-100 shadow-md">
       <figure>
-        <img src={player.player_image} alt="Shoes" />
+        <img
+          className="w-full h-[400px]"
+          src={player.player_image}
+          alt="Shoes"
+        />
       </figure>
       <div className=" p-4 space-y-2">
         <h2 className="card-title">
@@ -44,13 +48,14 @@ const PlayerCard = ({
             disabled={isSelected}
             onClick={() => {
               if (availableBalance < player.price) {
-                toast("Balance Needed!");
+                toast("Task Completed!");
                 return;
               }
               if (selectedPlayers.length === 6) {
                 toast("Already 6 Players taken!");
                 return;
               }
+              toast(`${player.player_name} Selected!`);
               setIsSelected(true);
               setAvailableBalance(availableBalance - player.price);
               setSelectedPlayers([...selectedPlayers, player]);
