@@ -21,7 +21,16 @@ const Navbar = ({ availableBalance }) => {
           Assemble Your Ultimate Dream 11 Cricket Team
         </h1>
         <p className="font-light text-sm">Beyond Boundaries Beyond Limits</p>
-        <button className="button">Claim Free Credit</button>
+        <div className="border border-white rounded-2xl p-1">
+          <button
+            className="px-5 py-3 rounded-xl text-black font-medium 
+bg-gradient-to-r from-pink-400 via-orange-300 to-yellow-300 
+hover:from-pink-500 hover:via-orange-400 hover:to-yellow-400 
+shadow-md"
+          >
+            Claim Free Credit
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faFlag } from "@fortawesome/free-solid-svg-icons";
+import { toast } from "react-toastify";
 
 const PlayerCard = ({
   player,
@@ -13,11 +14,7 @@ const PlayerCard = ({
   return (
     <div className="card bg-base-100 shadow-md">
       <figure>
-        <img
-          className="w-full h-[300px] object-cover"
-          src={player.player_image}
-          alt="Shoes"
-        />
+        <img src={player.player_image} alt="Shoes" />
       </figure>
       <div className=" p-4 space-y-2">
         <h2 className="card-title">
@@ -47,7 +44,11 @@ const PlayerCard = ({
             disabled={isSelected}
             onClick={() => {
               if (availableBalance < player.price) {
-                alert("তুমি জুয়াতে নিজের সব কিছু দিয়া দিসো। এখন তুমি ফৈন্নি ");
+                toast("Balance Needed!");
+                return;
+              }
+              if (selectedPlayers.length === 6) {
+                toast("Already 6 Players taken!");
                 return;
               }
               setIsSelected(true);

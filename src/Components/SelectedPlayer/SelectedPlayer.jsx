@@ -11,6 +11,12 @@ const SelectedPlayer = ({ selectedPlayers, removePlayer }) => {
           player={player}
         ></SelectedCard>
       ))}
+
+      <div className="border w-fit rounded-2xl">
+        <button className="bg-[#E7FE29] hover:bg-[#c7dc0d] px-3 py-2 rounded-xl font-semibold m-1">
+          Add Players
+        </button>
+      </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "player_image": "https://i.ibb.co.com/k2h0mzHn/licensed-image.webp",
+    "player_image": "https://i.ibb.co.com/wrpCZMPm/shakib-al-hasanjpg.jpg",
     "player_name": "Shakib Al Hasan",
     "player_country": "Bangladesh",
     "player_role": "All-rounder",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "player_image": "https://i.ibb.co.com/YF5xbyDJ/image-51989-1648055966.jpg",
+    "player_image": "https://i.ibb.co.com/V0BVQGVW/tamim-iqbaljpg.jpg",
     "player_name": "Tamim Iqbal",
     "player_country": "Bangladesh",
     "player_role": "Batsman",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "player_image": "https://i.ibb.co.com/G3971XtD/images.webp",
+    "player_image": "https://i.ibb.co.com/99x18zVL/mustafizur-rahmanjpg.jpg",
     "player_name": "Mustafizur Rahman",
     "player_country": "Bangladesh",
     "player_role": "Bowler",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "player_image": "https://i.ibb.co.com/G354TRZf/images-1.webp",
+    "player_image": "https://i.ibb.co.com/5gGj62qX/mushfiqur-rahimjpg.jpg",
     "player_name": "Mushfiqur Rahim",
     "player_country": "Bangladesh",
     "player_role": "Wicketkeeper-Batsman",
@@ -45,84 +45,84 @@
   },
   {
     "id": 5,
-    "player_image": "https://i.ibb.co.com/whf3zBjR/images-2.webp",
-    "player_name": "Andre Russell",
-    "player_country": "West Indies",
-    "player_role": "All-rounder",
-    "player_rating": 9.2,
+    "player_image": "https://i.ibb.co.com/cXTGsVkQ/mashrafe-mortazajpg.jpg",
+    "player_name": "Mashrafe Mortaza",
+    "player_country": "Bangladesh",
+    "player_role": "Bowler / Captain",
+    "player_rating": 8.0,
     "batting_position": "Right-handed",
-    "bowling_position": "Right-arm fast",
-    "price": 50000
+    "bowling_position": "Right-arm medium fast",
+    "price": 5500000
   },
   {
     "id": 6,
-    "player_image": "https://i.ibb.co.com/jZ3grwtn/download-1.jpg",
-    "player_name": "Sunil Narine",
-    "player_country": "West Indies",
+    "player_image": "https://i.ibb.co.com/x8PCz0G2/mahmudullahjpg.jpg",
+    "player_name": "Mahmudullah Riyad",
+    "player_country": "Bangladesh",
     "player_role": "All-rounder",
     "player_rating": 8.6,
-    "batting_position": "Left-handed",
+    "batting_position": "Right-handed",
     "bowling_position": "Right-arm off spin",
-    "price": 40000
+    "price": 5800000
   },
   {
     "id": 7,
-    "player_image": "https://i.ibb.co.com/931x7FLF/licensed-image-1.webp",
-    "player_name": "Afif Hossain",
+    "player_image": "https://i.ibb.co.com/TZYmy4C/soumya-sarkarjpg.jpg",
+    "player_name": "Soumya Sarkar",
     "player_country": "Bangladesh",
     "player_role": "All-rounder",
     "player_rating": 8.1,
     "batting_position": "Left-handed",
-    "bowling_position": "Right-arm off spin",
-    "price": 4000000
+    "bowling_position": "Right-arm medium",
+    "price": 5000000
   },
   {
     "id": 8,
-    "player_image": "https://i.ibb.co.com/QjbnF7gp/download-2.jpg",
-    "player_name": "Nasum Ahmed",
+    "player_image": "https://i.ibb.co.com/prJnJGHv/rubel-hossainjpg.jpg",
+    "player_name": "Rubel Hossain",
     "player_country": "Bangladesh",
     "player_role": "Bowler",
     "player_rating": 7.9,
     "batting_position": "Right-handed",
-    "bowling_position": "Left-arm orthodox spin",
-    "price": 2500000
+    "bowling_position": "Right-arm fast",
+    "price": 4800000
   },
   {
     "id": 9,
-    "player_image": "https://i.ibb.co.com/N6Hsmt6F/download-3.jpg",
-    "player_name": "Shoriful Islam",
+    "player_image": "https://i.ibb.co.com/G4gfL3W3/mehdi-hasanjpg.jpg",
+    "player_name": "Mehidy Hasan Miraz",
     "player_country": "Bangladesh",
-    "player_role": "Bowler",
-    "player_rating": 8.0,
-    "batting_position": "Left-handed",
-    "bowling_position": "Left-arm fast medium",
-    "price": 6000000
+    "player_role": "All-rounder",
+    "player_rating": 8.2,
+    "batting_position": "Right-handed",
+    "bowling_position": "Right-arm off spin",
+    "price": 4800000
   },
   {
     "id": 10,
-    "player_image": "https://i.ibb.co.com/WW9Ln2q0/download-4.jpg",
-    "player_name": "Mahedi Hasan",
+    "player_image": "https://i.ibb.co.com/hJm09ztj/mosaddek-hasanjpg.jpg",
+    "player_name": "Mosaddek Hossain",
     "player_country": "Bangladesh",
     "player_role": "All-rounder",
-    "player_rating": 8.3,
+    "player_rating": 7.9,
     "batting_position": "Right-handed",
     "bowling_position": "Right-arm off spin",
-    "price": 4000000
+    "price": 4200000
   },
   {
     "id": 11,
-    "player_image": "https://i.ibb.co.com/27wKn9f7/gettyimages-2171956944-2048x2048-1.jpg",
-    "player_name": "Rahkeem Cornwall",
-    "player_country": "West Indies",
+    "player_image": " https://i.ibb.co.com/gbcJ3JcN/mohammed-saifuddinjpg.jpg",
+    "player_name": "Mohammad Saifuddin",
+    "player_country": "Bangladesh",
     "player_role": "All-rounder",
-    "player_rating": 8.4,
-    "batting_position": "Right-handed",
-    "bowling_position": "Right-arm off spin",
-    "price": 30000
+    "player_rating": 8.0,
+    "batting_position": "Left-handed",
+    "bowling_position": "Right-arm fast medium",
+    "price": 4600000
   },
   {
     "id": 12,
-    "player_image": "https://i.ibb.co.com/3Y0thdpd/images-3.webp",
+    "player_image": "https://i.ibb.co.com/67BDZvxj/liton-dasjpg.jpg",
     "player_name": "Liton Das",
     "player_country": "Bangladesh",
     "player_role": "Wicketkeeper-Batsman",
